@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Conteúdo principal da app -->
+    <LinearLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/fundo"
+        android:paddingTop="56dp">
+
+        <!-- Título da App -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:textSize="48sp"
+            android:layout_margin="8dp"
+            android:textAlignment="center" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botao_jogar_offline"
+            android:text="Jogar Offline"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botao_criar_jogo_online"
+            android:text="Criar Jogo Online"
+            android:layout_margin="8dp" />
+
+        <EditText
+            android:id="@+id/id_jogo_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:hint="Introduz o ID do Jogo"
+            android:layout_margin="8dp"
+            android:inputType="number" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botao_entrar_jogo_online"
+            android:text="Entrar no Jogo"
+            android:layout_margin="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_saudacao_jogador"
+            android:text="Saudação"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <!-- Botão do Menu por cima, no canto superior esquerdo -->
+    <ImageButton
+        android:id="@+id/menu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:src="@drawable/ic_menu"
+        android:background="@android:color/transparent"
+        android:layout_margin="10dp"
+        android:contentDescription="Abrir menu"
+        app:tint="?attr/colorControlNormal"
+        android:padding="16dp" />
+</FrameLayout>

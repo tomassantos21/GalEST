@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "487088683967",
+    "project_id": "galest-im-2025",
+    "storage_bucket": "galest-im-2025.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487088683967:android:1c7903b4de739a48b2ff0a",
+        "android_client_info": {
+          "package_name": "com.example.galest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhasYwQ1xE6eoNB09GY26iiWP2V5DCZps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

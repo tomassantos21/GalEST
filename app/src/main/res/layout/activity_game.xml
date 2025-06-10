@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameActivity"
+    android:background="@drawable/fundo"
+    >
+
+    <ImageButton
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/arrow_back"
+        android:contentDescription="Voltar"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_gravity="start|top"
+        app:tint="?attr/colorControlNormal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_margin="8dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto_estado_jogo"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:text="Jogo não iniciado"
+        />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="3">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="60sp"
+            android:tag="0"
+            android:id="@+id/botao_0"
+            tools:text="X"
+        />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="60sp"
+            android:tag="1"
+            android:id="@+id/botao_1"
+            tools:text="X"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="60sp"
+            android:tag="2"
+            android:id="@+id/botao_2"
+            tools:text="X"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="60sp"
+            android:tag="3"
+            android:id="@+id/botao_3"
+            tools:text="X"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="60sp"
+            android:tag="4"
+            android:id="@+id/botao_4"
+            tools:text="X"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="60sp"
+            android:tag="5"
+            android:id="@+id/botao_5"
+            tools:text="X"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="60sp"
+            android:tag="6"
+            android:id="@+id/botao_6"
+            tools:text="X"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="60sp"
+            android:tag="7"
+            android:id="@+id/botao_7"
+            tools:text="X"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="60sp"
+            android:tag="8"
+            android:id="@+id/botao_8"
+            tools:text="X"
+            />
+    </GridLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Começar Novo Jogo"
+        android:id="@+id/botao_comecar_jogo"
+        />
+
+</LinearLayout>

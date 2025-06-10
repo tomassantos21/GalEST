@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GalEST</string>
+    <string name="open_nav">Abrir menu</string>
+    <string name="close_nav">Fechar menu</string>
+</resources>

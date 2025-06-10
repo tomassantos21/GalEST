@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <!-- Your existing colors -->
+    <color name="dark_purple">#FF3700B3</color> <!-- Deep, saturated purple -->
+    <color name="light_purple">#FFBB86FC</color> <!-- Light, vibrant purple -->
+
+    <!-- Additional Purple Shades -->
+    <color name="medium_purple">#FF7B1FA2</color> <!-- A mid-tone purple, good for primary actions or backgrounds -->
+    <color name="very_light_purple">#FFE1BEE7</color> <!-- A very pale purple, suitable for subtle backgrounds or highlights -->
+    <color name="deep_purple_accent">#FF512DA8</color> <!-- A slightly desaturated deep purple, good for secondary text or icons -->
+
+    <!-- Complementary & Accent Colors -->
+    <color name="lavender_gray">#FFEDE7F6</color> <!-- A very light lavender-gray, good for backgrounds or dividers -->
+    <color name="soft_pink_accent">#FFFCE4EC</color> <!-- A soft pink, can be used for subtle accents or states (like hover) -->
+    <color name="off_white">#FFF8F8FF</color> <!-- An off-white, often better than pure white for backgrounds -->
+
+    <!-- Neutrals (if needed) -->
+    <color name="dark_gray_text">#FF212121</color> <!-- For primary text -->
+    <color name="medium_gray_text">#FF757575</color> <!-- For secondary text or icons -->
+    <color name="light_gray_divider">#FFBDBDBD</color> <!-- For dividers -->
+
+</resources>
